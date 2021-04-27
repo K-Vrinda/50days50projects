@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(234, 191, 159, 0.658);
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #faf3e0;
+    background-color: #b68973;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add:active,
+.add:focus {
+    outline: none;
+}
+
+.note {
+    background-color: rgba(30, 33, 45, 0.7);
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.15);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #faf3e0;
+}
+
+.note .tools {
+    background-color: #b68973;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.7rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #faf3e0;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .tools button:focus,
+.note .tools button:focus:active {
+    outline: none;
+}
+
+.note textarea {
+    outline: none;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    height: 360px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: #faf3e0;
+    background-color: rgba(30, 33, 45, 0.7);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.main {
+    padding: 20px;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.title {
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.rows {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#rowsInput {
+    height: 30px;
+    width: 50px;
+    color: #646464;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#rowsInput::-webkit-inner-spin-button,
+#rowsInput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#rowsInput:focus {
+    outline: 0;
+    text-align: center;
+}
+
+#rowsButton {
+    border: 2px double #bdbdbd;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    padding: 3px;
+    margin: 10px;
+}
+
+#rowsButton:focus {
+    outline: 0;
+}
+
+.container img {
+    object-fit: cover;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgba(99, 99, 99, 0.5), 0 6px 6px rgba(99, 99, 99, 0.5);
+}
