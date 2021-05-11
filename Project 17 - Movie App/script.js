@@ -1,4 +1,4 @@
-const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=bf2c183d8c0075662a3d17cc6acceae1&page=1'
+const API_URL = '<your api url>'
 
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
 
